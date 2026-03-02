@@ -6,10 +6,18 @@ import IconCopy from './ColorTitle/IconCopy';
 const Wrapper = styled.section`
   color: #333;
   display: flex;
-  flex-direction: column;
   margin-right: 0.5rem;
   margin-top: 0.6rem;
   overflow: visible;
+  .left {
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+  }
+  .right {
+    display: flex;
+    flex-direction: column;
+  }
   .item {
     border-top: 1px solid rgba(255, 255, 255, 0.6);
     padding: 0.8rem 0 0.4rem 0.2rem;
@@ -27,7 +35,7 @@ const Wrapper = styled.section`
         color: rgb(0, 255, 0, 0.8);
       }
       &.b {
-        color: rgb(0, 0, 255, 0.8);
+        color: rgb(0, 255, 255, 0.8);
       }
     }
 
@@ -50,29 +58,33 @@ const ColorParam = ({ CMYK, RGB = [0, 0, 0], hex, ...rest }) => {
   const [R, G, B] = RGB;
   return (
     <Wrapper {...rest}>
-      <div className="item cmyk c" data-id="c">
-        <Circle progress={C} color={'#0093D3'} />
+      <div className="left">
+        <div className="item cmyk c" data-id="c">
+          <Circle progress={C} color={'#0093D3'} />
+        </div>
+        <div className="item cmyk m" data-id="m">
+          <Circle progress={M} color={'#CC006B'} />
+        </div>
+        <div className="item cmyk y" data-id="y">
+          <Circle progress={Y} color={'#FFF10C'} />
+        </div>
+        <div className="item cmyk k" data-id="k">
+          <Circle progress={K} color={'#333'} />
+        </div>
+        <div className="item" data-id="hex">
+          <IconCopy currColorHex={hex} />
+        </div>
       </div>
-      <div className="item cmyk m" data-id="m">
-        <Circle progress={M} color={'#CC006B'} />
-      </div>
-      <div className="item cmyk y" data-id="y">
-        <Circle progress={Y} color={'#FFF10C'} />
-      </div>
-      <div className="item cmyk k" data-id="k">
-        <Circle progress={K} color={'#333'} />
-      </div>
-      <div className="item rgb r" data-id="r">
-        {R}
-      </div>
-      <div className="item rgb g" data-id="g">
-        {G}
-      </div>
-      <div className="item rgb b" data-id="b">
-        {B}
-      </div>
-      <div className="item" data-id="hex">
-        <IconCopy currColorHex={hex} />
+      <div className="right">
+        <div className="item rgb r" data-id="r">
+          {R}
+        </div>
+        <div className="item rgb g" data-id="g">
+          {G}
+        </div>
+        <div className="item rgb b" data-id="b">
+          {B}
+        </div>
       </div>
     </Wrapper>
   );
