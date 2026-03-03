@@ -6,7 +6,7 @@ import Logo from '../assets/img/logo.png';
 import Bird from '../assets/img/bg.bird.png';
 import BgImage from '../assets/img/code.bg.png';
 import BgBtmImage from '../assets/img/info.bg.btm.png';
-import RewardImage from '../assets/img/1reward.jpg';
+/* import RewardImage from '../assets/img/reward.jpg'; */
 import BounceInDown from './animates/BounceInDown';
 
 const Wrapper = styled.section`
