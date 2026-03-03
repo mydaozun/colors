@@ -155,19 +155,14 @@ export default function InfoModal({ closeModal, bgColor }) {
         </p>
 
         <p className="ad">
-          <span>
-            更多项目：
-            <a href="//52dh.cc.cd" target="_blank">
-              52DH
-            </a>
-          </span>
+          
 
         </p>
         <p>
           <span>
-            Inspired by:
-            <a href="http://nipponcolors.com" target="_blank">
-              Nipponcolors
+            更多项目:
+            <a href="https://52dh.cc.cd" target="_blank">
+              52DH
             </a>
           </span>
         </p>
