@@ -6,7 +6,7 @@ import Logo from '../assets/img/logo.png';
 import Bird from '../assets/img/bg.bird.png';
 import BgImage from '../assets/img/code.bg.png';
 import BgBtmImage from '../assets/img/info.bg.btm.png';
-import RewardImage from '../assets/img/reward.jpg';
+import RewardImage from '../assets/img/1reward.jpg';
 import BounceInDown from './animates/BounceInDown';
 
 const Wrapper = styled.section`
@@ -155,7 +155,12 @@ export default function InfoModal({ closeModal, bgColor }) {
         </p>
 
         <p className="ad">
-
+          <span>
+            更多项目：
+            <a href="//52dh.cc.cd" target="_blank">
+              52DH
+            </a>
+          </span>
 
         </p>
         <p>
@@ -168,9 +173,9 @@ export default function InfoModal({ closeModal, bgColor }) {
         </p>
         <p>
           <span>
-            Copyright © 2029 by:
+            Copyright © 2026 by:
             <a href="//52dh.cc.cd" target="_blank">
-              Tristan
+              mydaozun
             </a>
           </span>
         </p>
