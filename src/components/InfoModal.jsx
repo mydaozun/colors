@@ -6,7 +6,7 @@ import Logo from '../assets/img/logo.png';
 import Bird from '../assets/img/bg.bird.png';
 import BgImage from '../assets/img/code.bg.png';
 import BgBtmImage from '../assets/img/info.bg.btm.png';
-/* import RewardImage from '../assets/img/reward.jpg'; */
+
 import BounceInDown from './animates/BounceInDown';
 
 const Wrapper = styled.section`
@@ -135,13 +135,13 @@ export default function InfoModal({ closeModal, bgColor }) {
         </h1>
         <h2>chinese colors</h2>
 
-    /*    <img className="reward" src={RewardImage} alt="reward image" /> */
+
 
         <p className="btns">
           <GitHubButton
             href="https://github.com/mydaozun/colors"
             data-show-count="true"
-            aria-label="Star zerosoul/chinese-colors on GitHub"
+            aria-label="Star mydaozun/colors on GitHub"
           >
             Star
           </GitHubButton>
