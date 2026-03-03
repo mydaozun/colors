@@ -135,7 +135,7 @@ export default function InfoModal({ closeModal, bgColor }) {
         </h1>
         <h2>chinese colors</h2>
 
-        <img className="reward" src={RewardImage} alt="reward image" />
+    /*    <img className="reward" src={RewardImage} alt="reward image" /> */
 
         <p className="btns">
           <GitHubButton
