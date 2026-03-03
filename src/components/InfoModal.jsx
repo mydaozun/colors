@@ -139,40 +139,24 @@ export default function InfoModal({ closeModal, bgColor }) {
 
         <p className="btns">
           <GitHubButton
-            href="https://github.com/zerosoul/chinese-colors"
+            href="https://github.com/mydaozun/colors"
             data-show-count="true"
             aria-label="Star zerosoul/chinese-colors on GitHub"
           >
             Star
           </GitHubButton>
           <GitHubButton
-            href="https://github.com/zerosoul/chinese-colors/fork"
+            href="https://github.com/mydaozun"
             data-show-count="true"
-            aria-label="Fork zerosoul/chinese-colors on GitHub"
+            aria-label="Fork mydaozun/colors on GitHub"
           >
             Fork
           </GitHubButton>
         </p>
 
         <p className="ad">
-          <span>
-            更多作品：
-            <a href="//sinqi.tools" target="_blank">
-              Sinqi Tools
-            </a>
-          </span>
-          <span>
-            经典扫雷小游戏：
-            <a href="//ohminesweeper.online" target="_blank">
-              Minesweeper Online
-            </a>
-          </span>
-          <span>
-            高清壁纸大图：
-            <a href="//sinqi.tools/zh/unsplash" target="_blank">
-              Unsplash Wanderer
-            </a>
-          </span>
+
+
         </p>
         <p>
           <span>
@@ -184,8 +168,8 @@ export default function InfoModal({ closeModal, bgColor }) {
         </p>
         <p>
           <span>
-            Copyright © 2023 by:
-            <a href="//yangerxiao.com" target="_blank">
+            Copyright © 2029 by:
+            <a href="//52dh.cc.cd" target="_blank">
               Tristan
             </a>
           </span>
